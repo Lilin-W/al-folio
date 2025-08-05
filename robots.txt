@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://lilin-wang.github.io/sitemap.xml
+Sitemap: https://lilin-w.github.io/sitemap.xml
