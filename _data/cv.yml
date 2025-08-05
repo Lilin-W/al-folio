@@ -2,96 +2,139 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Lilin Wang
+    - name: Email
+      value: lilinw@seas.upenn.edu
+    - name: Phone
+      value: +1 (215) 397 5455
     - name: Languages
-      value: English, German
+      value: English, Chinese (Mandarin)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Electrical Engineering
+      institution: University of Pennsylvania, Philadelphia, PA, USA
+      year: Aug 2024 - Dec 2025 (Expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Graduate program in Electrical Engineering with focus on machine learning and signal processing
+        - Relevant coursework in advanced AI and data analysis
+    - title: Bachelor of Engineering (First Class Honors)
+      institution: Xi'an Jiaotong-Liverpool University, Suzhou, China
+      year: Sep 2020 - Jul 2024
+      description:
+        - Major: Data Science and Big Data Technology
+        - GPA: 3.76/4.0
+        - 2023-2024 Excellence Academic Award (Top 5%)
+        - 2021-2022 Achievement Academic Award (Top 10%)
+        - title: Relevant Coursework
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Applied Machine Learning
+            - Design and Analysis of Algorithm
+            - Statistics for Data Science
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: School of AI and Advanced Computing, Xi'an Jiaotong-Liverpool University
+      year: June 2023 - Oct 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Developed Attention-based Multimodal Bilinear Feature Fusion (AMBF) model for lung cancer survival analysis
+        - Processed NSCLC Radiogenomics dataset with effective handling of data heterogeneity and noise
+        - Integrated CT and PET imaging features with clinical data using Python
+        - Achieved MAE of 0.1341 and C-index of 0.8325 using AMBF-SA
+        - Published research at IEEE BIBE 2023 conference
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Professional Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Data Analyst Intern
+      institution: ByteDance LTD.
+      year: Jan 2023 - Apr 2023
+      description:
+        - Reduced inquiry time by 70% through database query optimization
+        - Created 10+ data visualization panels powered by SQL engines
+        - Designed comprehensive market research reports exceeding 10,000 words
+    - title: Data Analyst Intern
+      institution: Deloitte Consulting (Shanghai) Co., LTD.
+      year: Jul 2022 - Sep 2022
+      description:
+        - Identified and rectified 30+ web errors using Python data cleaning
+        - Engineered digital logistics platform for supply chain optimization
+        - Developed YOLOv5-based real-time surveillance system with MySQL integration
+    - title: Data Analyst Intern
+      institution: Suzhou Dayu Network Technology Co., LTD.
+      year: May 2022 - Jul 2022
+      description:
+        - Streamlined data collection for 200+ brands analyzing 1M+ data points
+        - Optimized marketing strategies through A/B Testing
+        - Achieved 25% increase in campaign effectiveness
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: "Attention-based Multimodal Bilinear Feature Fusion for Lung Cancer Survival Analysis"
+      year: 2023
+      description: 
+        - IEEE 23rd International Conference on Bioinformatics and Bioengineering (BIBE)
+        - Pages 219-225, DOI:10.1109/BIBE60311.2023.00042
+        - Co-first author with Hongbin Na
+    - title: "Guardians of Discourse: Evaluating LLMs on Multilingual Offensive Language Detection"
+      year: 2024
+      description:
+        - IEEE UIC 2024
+        - arXiv:2410.15623
+        - Co-author with Jianfei He et al.
+    - title: "A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions"
+      year: 2025
+      description:
+        - Accepted at Findings of ACL 2025
+        - arXiv:2502.11095
+        - Co-author with H. Na, Y. Hua et al.
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python (PyTorch, TensorFlow)
+        - SQL, R, C, C++
+        - MATLAB, HTML
+    - title: Data Analysis & Tools
+      items:
+        - Excel, LaTeX, GitHub
+        - Axure, MySQL
+        - Data visualization and pipeline optimization
+    - title: Machine Learning & AI
+      items:
+        - Deep Learning, Computer Vision
+        - Natural Language Processing
+        - Multimodal AI, YOLOv5
+        - A/B Testing and statistical analysis
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023-2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Excellence Academic Award (Top 5%) - XJTLU
+    - year: 2021-2022
       items:
-        - Max Planck Medal
-
-- title: Academic Interests
+        - Achievement Academic Award (Top 10%) - XJTLU
+        
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Multimodal AI
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Attention-based fusion models for diverse data types
+        - Integration of medical imaging with clinical data
+    - title: Healthcare AI
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Machine learning applications in medical data analysis
+        - Survival prediction and disease diagnosis systems
+    - title: Natural Language Processing
+      items:
+        - Large language models for multilingual applications
+        - Offensive language detection and content moderation
